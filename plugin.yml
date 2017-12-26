@@ -7,7 +7,7 @@ load: POSTWORLD
 description: PocketGuard guards your chest against thieves
 website: https://github.com/MinecrafterJPN/PocketGuard/
 commands:
- pg:
+ kiste:
   desciption: Lock and unlock chests
   usage: /pg <option>
   permission: pocketguard.command.pg
@@ -26,7 +26,7 @@ permissions:
     children:
      pocketguard.command.pg:
       default: true
-      description: "Allows using /pg command"
+      description: "Allows using /kiste command"
      pocketguard.command.spg:
       default: op
       description: "Allows using /spg command"
